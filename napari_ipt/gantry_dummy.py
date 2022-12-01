@@ -37,3 +37,5 @@ class GantryDummy():
 
     def test_napari(self, name:str=None):
         print(f'Layer selected: {name}')
+
+        
