@@ -35,7 +35,4 @@ class GantryDummy():
         self.position[2] = self.z_safe,
         print('Gantry: move_to_safe to:' + str(self._position))  
 
-    def test_napari(self, name:str=None):
-        print(f'Layer selected: {name}')
-
         
